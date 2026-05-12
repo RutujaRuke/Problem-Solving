@@ -42,7 +42,7 @@ else:
 
     print("the factorial of", num, "is", factorial)
 
-#find the fibonacci sequence/
+#find the fibonacci sequence
 
 number = int(input("enter the number of terms:"))
 n1 = 0
@@ -76,3 +76,29 @@ if num > 1:
         print(num, "is a prime number")
 else:    
     print(num, "is not a prime number")
+
+#swap two numbers
+
+num1 = 10
+num2 = 20
+
+print("the value of num1 before swapping:", num1)
+print("the value of num2 before swapping:", num2)
+
+num1, num2 = num2, num1
+
+print("the value of num1 after swapping:", num1)
+print("the value of num2 after swapping:", num2)
+
+#print number from 1 to 10 
+
+i = 1
+while i <=10:
+    print(i)
+    i += 1
+
+
+for i in range(1, 11):
+    print(i)
+
+#find the sum of natural numbers
