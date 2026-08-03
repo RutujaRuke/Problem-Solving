@@ -29,6 +29,8 @@ def create_user(name, role="user"):
 v1 = create_user('Rutuja', 'admin')
 v2 = create_user('Rutuja') 
 
+card = []
+
 def add_item(item, cart=[]):
     card.append(item)
     return cart
