@@ -40,3 +40,21 @@ if age >= 18:
     print("you are eligible to vote")
 else:
     print("you are not eligible to vote")
+
+# Collection	Example	Main purpose
+# List	[1, 2, 3]	Ordered, changeable collection
+# Tuple	(1, 2, 3)	Ordered, fixed collection
+# Set	{1, 2, 3}	Unique values
+# Dictionary	{"name": "Rutuja"}	Key-value data
+
+# LIST
+# "I have multiple things."
+
+# TUPLE
+# "I have multiple things and they shouldn't change."
+
+# SET
+# "I only care about unique things."
+
+# DICTIONARY
+# "I have information described by keys."
