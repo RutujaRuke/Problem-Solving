@@ -3,6 +3,7 @@ try:
     b = 33
     c = a / b
     print(c)
+    
 except ZeroDivisionError:
     print("error occurred")
 
